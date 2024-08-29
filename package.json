@@ -1,0 +1,20 @@
+{
+  "name": "festivalmusica-local",
+  "version": "1.0.0",
+  "description": "Learn SASS y NPM",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Anderson Mancilla",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "sass": "^1.77.8"
+  }
+}
