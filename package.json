@@ -2,9 +2,10 @@
   "name": "festivalmusica-local",
   "version": "1.0.0",
   "description": "Learn SASS y NPM",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "hola": "gulp hola"
   },
   "keywords": [
     "SASS",
