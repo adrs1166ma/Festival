@@ -1,5 +1,9 @@
-export function hola( done ) {
-    console.log('HOLiii')
+import * as dartSass from 'sass'
+import gulpSass from 'gulp-sass'
+
+const sass = gulpSass(dartSass)
+
+export function css( done ) {
 
     done()
 }
