@@ -15,4 +15,3 @@ export function dev() {
     watch('src/scss/**/*.scss', css)
 
 }
-// este es el primer commit del domingo
